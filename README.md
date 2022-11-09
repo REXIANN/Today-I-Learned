@@ -22,12 +22,12 @@
 - [ ] Expressjs
 - [ ] GraphQL
 - [ ] HTML
-- [ ] Javascript
+- [X] Javascript
 - [ ] Jest
 - [ ] Nextjs
 - [ ] Nodejs
 - [ ] Prisma
-- [ ] Python
+- [X] Python
 - [ ] React
 - [ ] RxJS
 - [ ] Typescript
