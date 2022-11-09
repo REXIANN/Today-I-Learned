@@ -19,11 +19,10 @@
 
 ### 마이그레이션 진척사항
 #### Codebase
-- [ ] CSS
-- [ ] Django
+- [X] CSS
 - [ ] Expressjs
 - [ ] GraphQL
-- [ ] HTML
+- [X] HTML
 - [X] Javascript
 - [ ] Jest
 - [ ] Nextjs
@@ -39,11 +38,9 @@
 #### Infrastructure
 - [ ] AWS
 - [X] Docker
-- [ ] Nginx
 
 #### Configuration Management
 - [ ] Git
-- [ ] Jira
 
 #### Computer Science
 - [ ] ComputerScience
