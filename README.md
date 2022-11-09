@@ -36,7 +36,7 @@
 
 #### Infrastructure
 - [ ] AWS
-- [ ] Docker
+- [X] Docker
 - [ ] Nginx
 
 #### Configuration Management
