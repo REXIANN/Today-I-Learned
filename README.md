@@ -7,6 +7,7 @@
 * [Docker](./Docker)
 * [Javascript](./Javascript)
 * [Python](./Python)
+* [Vue](./Vue)
 
 ## 폴더 네이밍 규칙
 1. 폴더 이름은 파스칼케이스로 합니다 (Javascript, Python)
@@ -35,7 +36,7 @@
 - [ ] RxJS
 - [ ] Typescript
 - [ ] Vitejs
-- [ ] Vuejs
+- [X] Vuejs
 
 #### Infrastructure
 - [ ] AWS
