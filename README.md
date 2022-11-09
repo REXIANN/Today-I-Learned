@@ -2,9 +2,11 @@
 > 아무 것도 하지 않으면, 아무 일도 일어 나지 않는다.
 
 ## Table of contents
+* [CSS](./CSS)
+* [HTML](./HTML)
+* [Docker](./Docker)
 * [Javascript](./Javascript)
 * [Python](./Python)
-* [Docker](./Docker)
 
 ## 폴더 네이밍 규칙
 1. 폴더 이름은 파스칼케이스로 합니다 (Javascript, Python)
