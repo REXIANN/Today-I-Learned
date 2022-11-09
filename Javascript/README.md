@@ -1,15 +1,5 @@
 # JavaScript
 
-[VanillaJS with Nico]
-
-[Ellie's Dream Coding]
-
-[실전 자바스크립트-인프런]
-
-[프론트엔드 스터디]
-
-[코드스테이츠 JS 프리코스 ]
-
 ## 자바스크립트 기반의 T자 구조를 만들기 위해 공부해야 하는 것
 
 📐T자를 깊이 내려가는 법
