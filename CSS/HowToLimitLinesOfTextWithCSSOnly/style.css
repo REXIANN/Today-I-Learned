@@ -1,0 +1,71 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background:#f3f3f3;
+    overflow: hidden;
+}
+
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+h2, p {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.cutoff-text {
+    --max-line: 3;
+
+    display: -webkit-box; /* Chrome, Edge, etc... */
+    -webkit-line-clamp: var(--max-line);
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.cutoff-text-by-line-height {
+    --max-lines: 15;
+    --line-height: 1.4;
+
+    /* max-height 대신 height 쓰면 고정높이가 됨 */
+    max-height: calc(var(--max-lines) * 1em * var(--line-height));
+    line-height: var(--line-height);
+
+    overflow: hidden;
+}
+
+.cutoff-text-with-fade-effect {
+    --max-lines: 3;
+    --line-height: 1.4;
+
+    max-height: calc(var(--max-lines) * 1em * var(--line-height));
+    line-height: var(--line-height);
+
+    overflow: hidden;
+    position: relative;
+}
+
+.cutoff-text-with-fade-effect::before {
+    content: "";
+    position: absolute;
+    height: calc(1em * var(--line-height));
+    width: 100%;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, white);
+}
